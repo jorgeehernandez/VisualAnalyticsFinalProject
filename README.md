@@ -58,3 +58,10 @@ Al ser ConnectAmericas una compañía que principalmente connecta negocios y cre
 Ya que no es posible crear reportes que entrelacen todas las fuentes de datos es factible la creación de una herramienta de repotes que pueda que usando los diferentes datos almacenados permita la creación y visualizaciond de reportes sobre los pejectos , negocios o indicadores de gestion. 
 
 
+Bibliografia
+
+• ConnectAmericas 2016 https://connectamericas.com
+• Parmenter D. Key Performance Indicators : Developing, Implementing, And Using Winning Kpis [e-book]. Hoboken, N.J. : John Wiley & Sons, c2010.; 2010. Available from: Catálogo de la Universidad de los Andes, Ipswich, MA. Accessed October 5, 2016.
+
+
+
