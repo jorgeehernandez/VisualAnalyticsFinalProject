@@ -63,5 +63,15 @@ Bibliografia
 • ConnectAmericas 2016 https://connectamericas.com
 • Parmenter D. Key Performance Indicators : Developing, Implementing, And Using Winning Kpis [e-book]. Hoboken, N.J. : John Wiley & Sons, c2010.; 2010. Available from: Catálogo de la Universidad de los Andes, Ipswich, MA. Accessed October 5, 2016.
 
+30% Resumen:
+
+presentation: http://slides.com/gpenam92/deck-1
+
+
+Tareas:
+
+T1: Presentar la distribución de la navegación de cada usuario en CA.
+T2: Derivar las caminos que tienen en común los diferentes usuarios para ver cuales son los contenidos mas relevantes.
+T3: Explorar las características de la navegación de los usuarios para determinar patrones de uso.
 
 
