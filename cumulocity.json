@@ -1,0 +1,19 @@
+{
+  "name": "PluginD3",
+  "description": "connectamericas visualitation",
+  "ngModules": [
+    "app.d3module"
+  ],
+  "js": [
+    "index.js"
+  ],
+  "copy": [
+    "articlelogstree.json",
+    "businessopportunitylogstree.json",
+    "communitylogstree.json",
+    "icicledata_article.json",
+    "icicledata_business.json",
+    "icicledata_community.json"
+  ],
+  "imports": []
+}
