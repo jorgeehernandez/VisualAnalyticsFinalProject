@@ -6,72 +6,26 @@ Proyecto: ConnectAmericas.
 Jorge Hernandez – 201525075
 Gustavo Peña Morales – 201628966
 
-
-INTRODUCCIÓN:
-
-ConnectAmericas es una empresa que se dedica a la creación de relaciones entre empresas pequeñas y medianas en diferentes países de la región de Latinoamérica y el Caribe. Esto lo hace a través de una plataforma web que sirve como medio de comunicación entre estas empresas, esto la convierte en un tipo de red social: Una red social para negocios. Algunas de las funciones que tiene la empresa son:   el descubrimiento de nuevas oportunidades de negocio, conexión con potenciales clientes y  socios, acceso a entrenamiento, contenido virtual y exploración de financiamiento. 
-
-SITUACIÓN ACTUAL:
-
-ConnectAmericas, actualmente cuenta con 70.000 usuarios a los largo de Latinoamérica y el Caribe, ha facilitado la creación de 10.000 empresas. Entre los beneficios que ofrecen para los usuarios registrados en la plataforma están, eventos y ruedas de negocio con el BID, programas gubernamentales, cambios de modelos en comunidades y un área de conocimiento.
-
-Los beneficios y actividades que realiza ConnectAmericas, se realizan por medio del análisis y administración del conocimiento que van adquiriendo de los registros de los usuarios y actividades que estos realizan en la plataforma con un equipo de analistas los cuales generan resultados de gestión y sistemas de recomendación. 
-
-La empresa esta dividida en dos sedes una en Washington D.C, USA, la cual se encarga de las operaciones de mercadeo, relaciones de negocios y análisis; y otra en Buenos Aires, Argentina la cual maneja TI.  Esto lleva a que haya una descentralización de la información lo cual se ve reflejado en la existencia de múltiples bases de datos. 
-
-Estas bases de datos están soportadas en:
-
-•	Drupal:  Módulos de funcionamiento y fuente principal de los datos de ConnectAmericas.
-•	MySQL: Gestion de contenidos y sistemas de recomendación contextuales. 
-•	MongoDB: Seguimiento a la navegación de los usuarios. 
-•	Base de Datos Aparte: Base desconocida, la cual se encarga de los sistema de eventos y pruebas de negocio. 
-
-Recientemente adquirieron la licencia de Tableau, las cuales no han sido integradas o conectadas a la información. 
-
-PROBLEMAS: 
+TrackCA is a visualization system developed with the help of ConnectAmericas. Is a system that allows to explore the more relevant contents on ConnectAmericas and how is it distribution of navigation, and what are the countries more active in the platform through the use of a treemap. In addition, the visualization offers the opportunities to explore and navigate the patterns and connections that users who visit through specific contents share in order to discover what are the things that the users have in common, this by using a zoomable icicle. Finally, we will see more general results using a line chart where we will see the trends of visits that content have over time and a statistics box where some key performance indicator will be shown such as average number of visits and average number of content created. This project was developed using techniques of filtering, embedded, and derive data.
+  
+What, Why and How?
+  
+TrackCA is system that works with the data of ConnectAmericas, a company that has two databases systemas one on a Drupal MySQL and other on MongoDB, the information is stored in tables. The problem with this data is that because is stored in two different systems the company don't have an easy acces to the information available, this create difficulties at the moement of realize reports and track the navigation and traffic of the contents in the platform. Because of that, these are the three tasks that TrackCA solves. 
+  
+1) Present the distribution of users navigation in ConnectAmericas content. 
+2) Derive the connections that users have in common while exploring the content. 
+3) Explore the characteristics of navigation, to determine patterns of use. 
+  
+TrackCA is a system web based, that thorugh the use of treemap and icicles allow to see the distribution of users naviogations and discover what the users have in common, uses techniques of reducing and filtering in order to navigate in a tree structure of the data derived.
+  
+PRESENTATION: http://slides.com/gpenam92/deck-2
+DEMO: see the connectamericas.mp4 file
 
 
-Los siguientes son problemas detectados en conversaciones con el cliente:
+To run this project:
+Using a simple blockbuilder you can run this project. ALl you nee to do is:
+1) index.html.  Where everythings is called 
+2) The .json files. Where the data is store.
 
-•	Gestion de indicadores 
-
-Al ser ConnectAmericas una compañía que se dedica a la creación y fomento de negocios entre empresas es necesario poder medir estas gestion por medio de indicadores (KPIs). Debido a los diferentes tipos de bases de datos usadas y la diferencia y relación entre la información que se guarda en cada una de ellas, cada vez que es necesario crear un indicador sobre el mercado o estudiar comportamientos de los clientes se deben solicitar datos a diferentes departamentos y seguidamente realizar un análisis manual de la información. Es es principalmente un problema debido a la descentralización de datos. 
-
-•	Reportes no automáticos 
-
-Para ConnectAmericas es importante poder medir su gestion no solo con idicadores sino también con reportes que pueden entregar valor a sus cliente. Con las diferentes fuentes de datos crear reportes es un proceso lento y manual ya que deben solicutarse a los diferentes departamentos losdatos necesarios y luego crear el reporte manualmente. Ademas el proceso de relación entre los diferentes reportes (diferentes fuentes de informacion) no es de forma automática. Es necesaria una herramienta que permita crear reportes interactivos que se alimente de todas las fuentes de información y permita realizar un análisis de parte del experto.  
-
-
-
-
-POSIBLES SOLUCIONES
-
-Las siguientes son posibles soluciones a los problemas:
-
-•	Herramienta que permita navegar visualmente sobre los proyectos 
-
-Al ser ConnectAmericas una compañía que principalmente connecta negocios y crea oportunidad para empresa en diferentes países es factible crear una herramienta que alimentada de todas las fuentes de datos, permita la visualización de todos los proyectos,  haciendo énfasis en las posibles conexiones o negocios de cada proyecto para cada cliente. De esta forma se podrían analizar los datos y encontrar indicadores que permitan la visualización de os indicadores de gestion. 
-
-
-•	Herramienta de reportes
-
-Ya que no es posible crear reportes que entrelacen todas las fuentes de datos es factible la creación de una herramienta de repotes que pueda que usando los diferentes datos almacenados permita la creación y visualizaciond de reportes sobre los pejectos , negocios o indicadores de gestion. 
-
-
-Bibliografia
-
-• ConnectAmericas 2016 https://connectamericas.com
-• Parmenter D. Key Performance Indicators : Developing, Implementing, And Using Winning Kpis [e-book]. Hoboken, N.J. : John Wiley & Sons, c2010.; 2010. Available from: Catálogo de la Universidad de los Andes, Ipswich, MA. Accessed October 5, 2016.
-
-30% Resumen:
-
-presentation: http://slides.com/gpenam92/deck-1
-
-
-Tareas:
-
-T1: Presentar la distribución de la navegación de cada usuario en CA.
-T2: Derivar las caminos que tienen en común los diferentes usuarios para ver cuales son los contenidos mas relevantes.
-T3: Explorar las características de la navegación de los usuarios para determinar patrones de uso.
 
 
