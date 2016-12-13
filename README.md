@@ -23,9 +23,18 @@ DEMO: see the connectamericas.mp4 file
 
 
 To run this project:
-Using a simple blockbuilder you can run this project. ALl you nee to do is:
+Using a simple blockbuilder you can run this project. All you need to have is:
 1) index.html.  Where everythings is called 
 2) The .json files. Where the data is store.
+
+The running project can be accessed from:
+url: https://bismark1.cumulocity.com/apps/visualapp/index.html#/home
+user: je.hernandez1@uniandes.edu.co
+pass : demovisual
+
+
+
+
 
 
 
